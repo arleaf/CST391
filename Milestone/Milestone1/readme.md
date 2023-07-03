@@ -10,6 +10,10 @@ This application will make it simpile to keep track of your car inventory. This 
 - As a developer, I would like to have a remove function, so that users can remove inventory.
 - As a developer, I would like to have a update function, so that users can update inventory.
 
+## ER Diagram
+![ER Diagram](CarDB.drawio.png)
+
+
 
 
 ## Risks
