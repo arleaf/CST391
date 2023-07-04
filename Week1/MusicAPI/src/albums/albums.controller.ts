@@ -45,7 +45,7 @@ export const readAlbumsByArtist: RequestHandler = async (req: Request, res: Resp
 export const readAlbumsByArtistSearch: RequestHandler = async (req: Request, res: Response) => {
     try {
         console.log('search', req.params.search);
-        const albums = await AlbumDao.readAlbumsByArtistSearch('%' + req.params.artist + '%');
+        const albums = await AlbumDao.readAlbumsByArtistSearch('%' + req.params.search + '%');
 
         await readTracks(albums, res);
 
@@ -131,7 +131,6 @@ export const updateAlbum: RequestHandler = async (req: Request, res: Response) =
 export const deleteAlbum: RequestHandler = async (req: Request, res: Response) => {
     try {
         let albumId = parseInt(req.params.albumId as string);
-
         console.log('albumId', albumId);
 
         if (!Number.isNaN(albumId)) {

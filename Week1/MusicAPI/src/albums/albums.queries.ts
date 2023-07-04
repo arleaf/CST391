@@ -3,10 +3,10 @@ export const albumQueries = {
 		`SELECT id as albumId, title as title, artist as artist, description as description, year as year, image as image from music.albums`,
 	readAlbumsByArtist:
 		`SELECT id as albumId, title as title, artist as artist, description as description, year as year, image as image from music.albums
-	   WHERE music.albums.artists = ?`,
+	   WHERE music.albums.artist = ?`,
 	readAlbumsByArtistSearch:
 		`SELECT id as albumId, title as title, artist as artist, description as description, year as year, image as image from music.albums
-	   WHERE music.albums.artists LIKE ?`,
+	   WHERE music.albums.artist LIKE ?`,
 	readAlbumsByDescriptionSearch:
 		`SELECT id as albumId, title as title, artist as artist, description as description, year as year, image as image from music.albums
 	   WHERE music.albums.description LIKE ?`,

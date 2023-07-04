@@ -18,20 +18,21 @@ router
     .route('/albums/search/description/:search')
     .get(AlbumsController.readAlbumsByDescriptionSearch);
 
+
 router
     .route('/albums')
     .post(AlbumsController.createAlbum);
 
+
 router
     .route('/albums')
-    .post(AlbumsController.updateAlbum);
+    .put(AlbumsController.updateAlbum);
+
+
 
 router
     .route('/albums/:albumId')
     .delete(AlbumsController.deleteAlbum);
-//router
-//  .route('/albums/:readtracks')
-// .get(AlbumsController.readTracks());
 
 
 export default router;
