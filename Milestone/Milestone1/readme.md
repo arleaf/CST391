@@ -14,10 +14,10 @@ This application will make it simple to keep track of your car inventory. This w
 ![ER Diagram](CarDB.drawio.png)
 
 ## Sitemap
-![SiteMap Diagram](Sitemap.drawio (1).png)
+![SiteMap Diagram](Sitemap.drawio.png)
 
 ## WireFrame
-![Wireframe Diagram](Wireframe.drawio (1).png)
+![Wireframe Diagram](Wireframe.drawio.png)
 
 ## UML Classes
 ![UML Diagram](UML.drawio.png)
