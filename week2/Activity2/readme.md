@@ -12,3 +12,11 @@ Modified title variable in app.component.ts.
 
 ![Message_variable](MessageVariable.png)
 Added message variable in app.component.ts.
+
+## Research Questions
+
+### Project Structure Folders
+
+### Project Structure Files
+
+### Angular Resultant Page
