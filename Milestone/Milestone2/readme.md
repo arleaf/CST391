@@ -1,4 +1,4 @@
-# Milestone1 - Car Inventory App
+# Milestone - Car Inventory App
 
 Instructor Feedback: Include Images in Readme.md
 
