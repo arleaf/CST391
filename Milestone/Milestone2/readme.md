@@ -1,6 +1,7 @@
 # Milestone1 
 ## Car Inventory App
 
+Instructor Feedback: Include Images in Readme.md
 ## Introduction:
 This application will make it simple to keep track of your car inventory. This web app will allow users to manage their vechile stock and enhance productivity.
 ## Functionality Requirements
