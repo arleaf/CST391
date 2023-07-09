@@ -25,3 +25,43 @@ This application will make it simple to keep track of your car inventory. This w
 ![UML Diagram](UML.drawio.png)
 
 ## Risks
+
+## Rest API
+The REST API to the Car app is described below.
+### Get the list of Cars
+ #### Request
+    Get /cars/
+### Get the list of Cars from Maker
+ #### Request
+    Get /cars/Make
+### Get Car by Id
+ #### Request
+    Get /cars?carId=id
+### Create Car
+ #### Request
+    Post /cars/
+  #### Body
+```json
+ {
+        "make": string,
+        "model": string,
+        "year": int,
+        "sold": boolean
+    }
+```
+### Update Car
+ #### Request
+    Put /cars/
+  #### Body
+```json
+ {
+		"carId":  carId,
+        "make": string,
+        "model": string,
+        "year": int,
+        "sold": boolean
+    }
+```
+### Delete Car
+ #### Request
+    Delete /cars/id
