@@ -1,5 +1,13 @@
 # Milestone - Car Inventory App
 
+Screencast: www.example.com
+
+## UPDATES
+| Date | Updates |
+| --- | ----------- |
+| 07/08/23 | Updated UML & Database Diagrams |
+| 07/08/23 | Added Rest API documentation |
+
 
 ## Introduction:
 This application will make it simple to keep track of your car inventory. This web app will allow users to manage their vehicle stock and enhance productivity.
