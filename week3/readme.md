@@ -24,5 +24,22 @@ Browser Dev Tools display the Product and Quantity after clicking the buy button
   The ngmodel binds the value of HTML controls to app data. With the ng-model, you can bind the value of an input field to a variable created in Angular. The binding goes both ways. If the user changes the value inside the input field, the Angular property will also change its value. In this case, if the user changes the drop-down selection, the property product will also change.
 ## Part 2
 ### Screenshots
+![MusicApp_homepage](intialHomepage.png)
+Initial Music Application page.
 
-### Research Questions
+![GCU_homepage](GCUHomepage.png)
+GCU Homepage as redirected from GCU Home link.
+
+![CreateAlbum_page](CreateAlbum.png)
+Album Create Page.
+
+
+![ArtistList_Page](ArtistList.png)
+Artist List page.
+
+![About_Page](About.png)
+About page alert. Displays application version.
+
+
+
+
