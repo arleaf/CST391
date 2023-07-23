@@ -1,0 +1,12 @@
+<p>delete-cars works!</p>
+<div class="form-container" *ngIf="!wasSubmitted">
+    <form (ngSubmit)="onSubmit()" #createForm="ngForm">
+        <div class="form-group">
+            <label for="carId">carId</label> <input id="carId" type="text" class="form-control" aria-describedby="carId"
+                placeholder="Enter the Id of the Car to be deleted" required [(ngModel)]="Car.carId" name="carId">
+        </div>
+
+        <button type="submit" class=btn btn-primary>Submit</button>
+    </form>
+</div>
+<div *ngIf="wasSubmitted">Car was deleted successfully.</div>

@@ -1,0 +1,28 @@
+<p>create-cars works!</p>
+<div class="form-container" *ngIf="!wasSubmitted">
+    <form (ngSubmit)="onSubmit()" #createForm="ngForm">
+        <div class="form-group">
+            <label for="Make">Make</label> <input id="Make" type="text" class="form-control" aria-describedby="CarMake"
+                placeholder="Enter the Make of the Car" required [(ngModel)]="Car.make" name="make">
+        </div>
+        <div class="form-group">
+            <label for="model">Model</label>
+            <textarea id="model" rows="3" class="form-control" aria-describedby="helpModel"
+                placeholder="Enter the model of the car" required [(ngModel)]="Car.model" name="model"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="year">Year</label> <input id="year" type="text" class="form-control" aria-describedby="helpYear"
+                placeholder="Enter the year of the Car" required [(ngModel)]="Car.year" name="year">
+        </div>
+        <div class="form-group">
+            <label for="sold">Sold</label>
+            <select name="sold" id="sold" placeholder="Select if Car sold" class="form-control"
+                aria-describedby="helpSold" [(ngModel)]="Car.sold">
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </select>
+        </div>
+        <button type="submit" class=btn btn-primary>Submit</button>
+    </form>
+</div>
+<div *ngIf="wasSubmitted">Car was added successfully.</div>

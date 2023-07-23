@@ -1,0 +1,13 @@
+<p>list-cars works!</p>
+<div class="list-group" *ngIf="selectedCar == null">
+    <button class="list-group-item" active *ngFor="let car of cars" (click)="onSelectCar(car)">
+        <table align="center">
+            <tr>
+                <td width="20%"></td>
+                <td>{{ car.model }} from {{ car.make }}</td>
+            </tr>
+        </table>
+    </button>
+</div>
+
+<app-display-cars *ngIf="selectedCar" [car]="selectedCar"></app-display-cars>

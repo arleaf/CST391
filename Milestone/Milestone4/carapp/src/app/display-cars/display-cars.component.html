@@ -1,0 +1,24 @@
+<p>display-cars works!</p>
+<div align="center">
+    <div class="card mb-6" *ngIf="editCar == null" style="max-width: 500px;">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">{{ car!.make }}</h5>
+                <p class="card-text">Id: {{ car!.carId }}</p>
+                <p class="card-text">Model: {{ car!.model }}</p>
+                <p class="card-text">Sold: {{ sold }}</p>
+                <p class="card-text"><small class="text-muted">{{ car!.year }}</small></p>
+            </div>
+            <button type="submit" (click)="onEditCar(car!)" class=btn btn-primary>Edit</button>
+        </div>
+
+    </div>
+</div>
+<app-edit-cars *ngIf="editCar" [car]="editCar"></app-edit-cars>
+<!-- <div class="collapse" id="collapseTracks" style="margin-left:50px;margin-right:50px;">
+    <div class="card card-body">
+        <ul class="list-group-flush">
+            <li class="list-group-item" *ngFor="let track of album!.tracks">{{ track.title }}</li>
+        </ul>
+    </div>
+</div> -->
