@@ -1,6 +1,6 @@
 # Milestone - Car Inventory App
 
-Screencast: https://www.loom.com/share/52ae3e1a13b6491597e04f2a5b3568a4
+Screencast: https://www.loom.com/share/499851ad8b774861a88ab392e97ad9a0
 
 ## UPDATES
 | Date | Updates |
