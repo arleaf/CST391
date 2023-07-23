@@ -71,3 +71,14 @@ The REST API to the Car app is described below.
 ### Delete Car
  #### Request
     Delete /cars/id
+
+
+## PowerPoint
+Powerpoint Link - https://docs.google.com/presentation/d/1OEb4XhAAnSl9pevQhVb1uj12ZyV3Ot7J21SkU3qXhqQ/edit?usp=sharing
+
+### Summary
+![App_Summary](Milestone4_Summary.png)
+### Challenges + Lessons Learned
+![App_Challanges](Milestone4_Challanges.png)
+### Known Bugs
+![App_bugs](Milestone4_Bugs.png)
