@@ -1,6 +1,6 @@
 # Activity 5
 
-##Part 1
+## Part 1
 
 ### Custom Components Screenshot
 ![Music_App](MusicApp.png)
