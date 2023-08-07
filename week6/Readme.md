@@ -35,6 +35,7 @@ Routing App demo after login displays the page contents.
 Music Main Application Page. Main link routes to here.
 
 ![MusicNew](MusicNew.png)
+
 Music New Page. New link routes to here.
 
 
