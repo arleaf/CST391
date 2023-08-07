@@ -15,6 +15,12 @@ Music App connected to our MusicAPI and displays all albums with matching search
 
 ## Routing App Demo - Screenshots
 ![About_unlogged](AboutUnloggedIn.png) ![Contact_unlogged](ContactUnloggedIn.png)
+
+
 Routing App Demo without logging in. 
+
+
 ![About_logged_In](AboutLoggedIn.png) ![Contact_Logged_In](ContactLoggedIn.png)
+
+
 Routing App demo after login displays the page contents.
