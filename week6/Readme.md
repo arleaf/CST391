@@ -42,3 +42,4 @@ Music New Page. New link routes to here.
 ![MusicSearch](MusicSearch.png)
 Music Search Filter Page. Filters all albums from API and displays albums with search phrase.
 ### Summary
+  In this part of the activity, we refactored our music app to a collection of components. We added a new component AlbumList which manages a list of Card elements. We also created a SearchAlbum component that contains the SearchForm and AlbumList components. Finally, we modified App.js to use SearchAlbum. App.js is still the stateful component and much of the details are now moved into child components
