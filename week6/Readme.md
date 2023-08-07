@@ -24,3 +24,6 @@ Routing App Demo without logging in.
 
 
 Routing App demo after login displays the page contents.
+
+### Routing App Demo Summary
+  In this demo, we made use of the routing library in React to specify the actions of our app based on the URL in the browser. Firstly, a route is a connection between the browser's URL and the contents of the web page. BrowserRouter uses HTML5 history API to keep your UI in sync with the URL. It is the parent component that is used to store all of the other components. To start we created a app with four components (about, contact, login and PrivateRoute). In our login component , we used the navigate method allowing the code to use routing to navigate to the next application page and location to get the location state. The PrivateRoute is used to protect routes so that unauthorized users are prevented from reaching protected routes. The components protected by PrivateRoute are AboutThisSite and ContactUs.
