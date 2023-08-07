@@ -37,6 +37,7 @@ Music Main Application Page. Main link routes to here.
 ![MusicNew](MusicNew.png)
 Music New Page. New link routes to here.
 
+
 ![MusicSearch](MusicSearch.png)
 Music Search Filter Page. Filters all albums from API and displays albums with search phrase.
 ### Summary
