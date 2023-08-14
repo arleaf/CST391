@@ -27,6 +27,7 @@ Album view page with updated lyrics and video link after clicking a track (Taxma
 Album view page with updated lyrics and video link after clicking a track (Elanor Rigby).
 
 ### Summary
+In this part of the Activity, I have updated the Single Album View to show the tracks. Upon clicking a track, the lyrics and video link will be displayed as shown above. I did this by creating the new components TrackLyrics, TrackTitle, TrackList, TrackVideo, and Track. This really put my knowledge of props and state to the test.
 
 ## Part 6: Create New Album
 
