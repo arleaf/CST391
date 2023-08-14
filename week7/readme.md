@@ -43,4 +43,19 @@ Album List and Music application home page updated to reflect new album created.
 
 ### Summary
 
+## Part 7: Edit an Album
+
+### Screenshots
+![HomePage](HomePage.png)
+Album Homepage with current album list.
+
+![Edit](Edit.png)
+Edit Album Component.
+
+
+![updated](updated.png)
+Updated Album Homepage after submitting the Edit view above. 
+
+### Summary
+
 
