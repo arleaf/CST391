@@ -28,4 +28,19 @@ Album view page with updated lyrics and video link after clicking a track (Elano
 
 ### Summary
 
+## Part 6: Create New Album
+
+### Screenshots
+![CreateAlbum](CreateAlbum.png)
+Create an Album view page. You will be directed here from the new link in the navbar.
+
+![CreateAlbumDetails](CreateAlbumDetails.png)
+Create an Album view page with details filled in.
+
+
+![AlbumAdded](AlbumAdded.png)
+Album List and Music application home page updated to reflect new album created.
+
+### Summary
+
 
