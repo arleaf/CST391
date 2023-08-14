@@ -43,7 +43,7 @@ Create an Album view page with details filled in.
 Album List and Music application home page updated to reflect new album created.
 
 ### Summary
-
+In this part of the activity, we added the ability to create an Album. This then updates our album list and displays it on our homepage. To do this we created an AddAlbum component which made use of a Bootstrap form. Afer modifying, we added the functions handleFormSubmit and handleCancel. This allows the user to cancel or submit the new album. By using controlled components, the form was able to maintain its own state and update it based on user input.
 ## Part 7: Edit an Album
 
 ### Screenshots
