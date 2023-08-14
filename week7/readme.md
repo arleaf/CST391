@@ -58,6 +58,6 @@ Edit Album Component.
 Updated Album Homepage after submitting the Edit view above. 
 
 ### Summary
-In this last part of the activity, we added the edit ability to our application. Once the edit button is clicked, the id gets passed and is sent to the API as a put method. The approach used was to modify the AddAlbum to handle edits, this is to minimize maintenance efforts. 
+In this last part of the activity, we added the edit ability to our application. Once the edit button is clicked, the id gets passed and is sent to the API as a put method. The approach used was to modify the AddAlbum to handle edits, this is to minimize maintenance efforts. We updated the component to check if the album is existing already, if it is a put method is sent if not a post method is sent to the API.
 
 
