@@ -74,11 +74,11 @@ The REST API to the Car app is described below.
 
 
 ## PowerPoint
-Powerpoint Link - 
+Powerpoint Link - https://docs.google.com/presentation/d/1ksOjFIqyrA_pNXs9EYeUYRkIG0pwVDZkyHgFSmEU1j0/edit?usp=sharing
 
 ### Summary
-![App_Summary](Milestone4_Summary.png)
+![App_Summary](Milestone5_Summary.png)
 ### Challenges + Lessons Learned
-![App_Challanges](Milestone4_Challanges.png)
+![App_Challanges](Milestone5_Challanges.png)
 ### Known Bugs
-![App_bugs](Milestone4_Bugs.png)
+![App_bugs](Milestone5_Bugs.png)
