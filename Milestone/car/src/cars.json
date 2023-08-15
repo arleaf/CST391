@@ -1,0 +1,23 @@
+[
+    {
+        "carId": 1,
+        "make": "Chevrolet",
+        "model": "The Tahoe",
+        "year": 2022,
+        "sold": 0
+    },
+    {
+        "carId": 2,
+        "make": "Nissan",
+        "model": "GT-R",
+        "year": 2023,
+        "sold": 0
+    },
+    {
+        "carId": 3,
+        "make": "Audi",
+        "model": "TT",
+        "year": 2023,
+        "sold": 1
+    }
+]
